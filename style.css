@@ -1,1 +1,49 @@
+ul{
+  background-color: #b3b3b3;
+}
+a:link{
+  color: black;
+  font-weight: bold;
+}
 
+a:link:active{
+  color: white;
+  background-color: #999999;
+}
+
+a:link:hover{
+  color: pink;
+  background-color: #999999;
+}
+
+h1{
+  text-align: center;
+  font-size: 3em;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+h2{
+  text-align: center;
+  font-size: 2em;
+}
+
+.me{
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.container p{
+  text-align: center;
+}
+
+footer{
+  text-align: left;
+  position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: #808080;
+color: black;
+font-weight: bold;
+text-align: center;
+}
