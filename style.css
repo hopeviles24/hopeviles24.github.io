@@ -21,14 +21,17 @@ a:link:hover{
 
 h1{
   text-align: center;
-  font-size: 3em;
+  font-size: 3.5em;
   font-weight: bolder;
   margin-top: 20px;
+
 }
 h2{
   text-align: center;
   font-size: 2em;
 }
+
+
 
 .me{
   margin-top: 20px;
@@ -64,5 +67,54 @@ text-align: center;
 }
 
 .resume{
+  margin-top: 50px;
+}
+
+.card-body{
+  text-align: left;
+  font-weight: normal;
+  font-size: 2.25em;
+  padding-left: 100px;
+
+}
+
+.card{
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 150px;
+  margin-top: 50px;
+  border-width: thin;
+  border-color: black;
+  background-color: #c1d7d7;
+}
+
+.card-body-content{
+  font-weight:normal;
+  font-size: 1.2em;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-indent: 20px;
+  background-color:#e0ebeb;
+}
+
+.content{
+  margin-bottom: 50px;
+
+}
+
+h5{
+  text-align: center;
+  font-size: 1.25em;
+}
+
+.card-text{
+  font-size: .5em;
+  text-align: left;
+  padding-right: 60px;
+
+}
+
+.thethree{
+  margin-left: 550px;
   margin-top: 50px;
 }
