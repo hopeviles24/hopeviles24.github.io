@@ -85,7 +85,8 @@ text-align: center;
   margin-top: 50px;
   border-width: thin;
   border-color: black;
-  background-color: #c1d7d7;
+  background-color: #b3b3b3;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .card-body-content{
@@ -94,7 +95,7 @@ text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
   text-indent: 20px;
-  background-color:#e0ebeb;
+  background-color:#d9d9d9;
 }
 
 .content{
@@ -117,4 +118,27 @@ h5{
 .thethree{
   margin-left: 550px;
   margin-top: 50px;
+}
+
+.techtalk{
+  font-size: 0.5em;
+  padding-right: 50px;
+  text-indent: 30px;
+  padding-bottom: 30px;
+}
+
+h6{
+  font-size: 1.2em;
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.parentcode{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 50px;
 }
