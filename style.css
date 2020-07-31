@@ -1,85 +1,83 @@
-body{
+body {
   background-color: #f2f2f2;
 }
-ul{
+
+ul {
   background-color: #b3b3b3;
 }
-a:link{
+
+a:link {
   color: black;
   font-weight: bold;
 }
 
-a:link:active{
+a:link:active {
   color: white;
   background-color: #999999;
 }
 
-a:link:hover{
+a:link:hover {
   color: pink;
   background-color: #999999;
 }
 
-h1{
+h1 {
   text-align: center;
   font-size: 3.5em;
   font-weight: bolder;
   margin-top: 20px;
-
 }
-h2{
+
+h2 {
   text-align: center;
   font-size: 2em;
 }
 
-
-
-.me{
+.me {
   margin-top: 20px;
   margin-left: 20px;
 }
 
-.container p{
+.container p {
   text-align: center;
-
 }
 
-.aboutme{
+.aboutme {
   margin-left: 380px;
   margin-right: 50px;
   margin-top: 50px;
 }
 
-footer{
+footer {
   text-align: left;
   position: fixed;
-left: 0;
-bottom: 0;
-width: 100%;
-background-color: #808080;
-color: black;
-font-weight: bold;
-text-align: center;
-z-index: 1;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #808080;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  z-index: 1;
 }
 
-.rounded{
+.rounded {
   margin-top: 0px;
   margin-bottom: 50px;
 }
 
-.resume{
+.resume {
   margin-top: 50px;
 }
 
-.card-body{
+.card-body {
   text-align: left;
   font-weight: normal;
   font-size: 2.25em;
   padding-left: 100px;
-
 }
 
-.card{
+.card {
   margin-top: 50px;
   margin-left: 100px;
   margin-right: 150px;
@@ -90,51 +88,49 @@ z-index: 1;
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
-.card-body-content{
-  font-weight:normal;
+.card-body-content {
+  font-weight: normal;
   font-size: 1.2em;
   padding-top: 20px;
   padding-bottom: 20px;
   text-indent: 20px;
-  background-color:#d9d9d9;
+  background-color: #d9d9d9;
 }
 
-.content{
+.content {
   margin-bottom: 50px;
-
 }
 
-h5{
+h5 {
   text-align: center;
   font-size: 1.25em;
 }
 
-.card-text{
+.card-text {
   font-size: .5em;
   text-align: left;
   padding-right: 60px;
-
 }
 
-.thethree{
+.thethree {
   margin-left: 550px;
   margin-top: 50px;
 }
 
-.techtalk{
+.techtalk {
   font-size: 0.5em;
   padding-right: 50px;
   text-indent: 30px;
   padding-bottom: 30px;
 }
 
-h6{
+h6 {
   font-size: 1.2em;
   text-align: center;
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
-.parentcode{
+.parentcode {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -144,19 +140,19 @@ h6{
   margin-bottom: 50px;
 }
 
-.contactme{
+.contactme {
   margin-left: 50px;
   margin-top: 50px;
 }
 
-.list{
+.list {
   width: 50%;
   margin-top: 30px;
   margin-bottom: 50px;
   margin-left: 200px;
 }
 
-.list-group-item{
+.list-group-item {
   font-size: 2em;
   border-width: thin;
   border-color: black;
@@ -165,13 +161,27 @@ h6{
   background-color: #e6ffff;
 }
 
-.contactparent{
+.contactparent {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.contactpic{
+.contactpic {
   margin-top: 30px;
   margin-right: 120px;
+}
+
+.lead {
+  padding-top: 30px;
+  font-size: 1.25em;
+}
+
+.kidphotos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 85px;
+  margin-right: 120px;
+  margin-top: 50px;
 }
